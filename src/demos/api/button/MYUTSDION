@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      <ion-icon name="menu-outline"></ion-icon>
+      UNDIRA
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <center>
+    <img src="../assets/logoundira.jpg" width="150px">
+  </center>
+  <div id="container" class="ion-padding">
+    <ion-button expand="block" color="primary" (click)="onClickAbout()">ABOUT</ion-button>
+    <ion-button expand="block" color="secondary" (click)="onClickEducation()">EDUCATION</ion-button>
+    <ion-button expand="block" color="warning" (click)="onClickPortfolio()">PORTFOLIO</ion-button>
+    <ion-button expand="block" color="danger" (click)="onClickContact()">CONTACT</ion-button>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title><h6><center>Copyright &copy; 2021</center></h6></ion-title>
+  </ion-toolbar>
+</ion-footer>
